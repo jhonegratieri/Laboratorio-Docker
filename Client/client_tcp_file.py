@@ -9,7 +9,7 @@ tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 dest = (HOST, PORT)
 tcp.connect(dest)
 
-file = arquivo.txt # Informe o nome do arquivo que deseja enviar
+file = arquivo-teste.txt # Informe o nome do arquivo que deseja enviar
 
 with open(file, 'rb') as arquivo:
     dados = arquivo.read()
