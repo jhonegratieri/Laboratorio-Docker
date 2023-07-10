@@ -12,7 +12,7 @@ i = 1
 
 while True:
     con, cliente = tcp.accept()
-    print('Concetado por', cliente)
+    print('Conectado por', cliente)
     file_name = "arquivo-" + str(i) + "-recebido"
     with open(file_name, 'wb') as arquivo:
         while True:
