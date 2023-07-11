@@ -15,7 +15,7 @@ Para utilizar a aplicação é necessário possuir previamente instalado em suas
    ```bash
    sudo docker run -it --network host server:latest /bin/bash
    ```
-OBS: Os passos 2 e 3 podem ser substituídos pelo seguinte comando caso deseje baixar a imagem pronta do Dockerhub:
+### OBS: Os passos 2 e 3 podem ser substituídos pelo seguinte comando caso deseje baixar a imagem pronta do Dockerhub:
    ```bash
    docker run -it --rm --network=host jhone18/server:latest /bin/bash
    ```
@@ -55,7 +55,7 @@ OBS: Os passos 2 e 3 podem ser substituídos pelo seguinte comando caso deseje b
    ```
 10. Insira o endereço de IP do servidor quando solicitado.
     
-OBS: Caso você deseje apenas testar o programa sem realizar alteração em qual arquivo será enviado, você pode substituir os comandos 7 e 8 pelo comando a seguir:
+### OBS: Caso você deseje apenas testar o programa sem realizar alteração em qual arquivo será enviado, você pode substituir os comandos 7 e 8 pelo comando a seguir:
    ```bash
    docker run -it --rm --network=host jhone18/cliente:latest /bin/bash
    ```
