@@ -35,10 +35,11 @@ OBS: Os passos 2 e 3 podem ser substituídos pelo seguinte comando caso deseje b
 
     COPY client-tcp-arquivo.py /app
     COPY arquivo-teste.txt /app
+    COPY arquivo-teste2.txt /app
 
     CMD [ "python", "client-tcp-arquivo.py" ]
    ```
-   No lugar de ```arquivo-teste.txt``` digite o nome do arquivo que deseja enviar e salve as alterações.
+   No lugar de ```arquivo-teste.txt``` digite o nome do arquivo que deseja enviar. Caso queira adicionar mais arquivos para serem enviados, adicione mais uma linha ```COPY nome-do-arquivo /app``` e salve as alterações.
    
 7. Agora digite o seguinte comando para criar a imagem do Docker:
    ```bash
