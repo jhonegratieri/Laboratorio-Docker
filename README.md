@@ -57,7 +57,7 @@ OBS: Os passos 2 e 3 podem ser substituídos pelo seguinte comando caso deseje b
     
 OBS: Caso você deseje apenas testar o programa sem realizar alteração em qual arquivo será enviado, você pode substituir os comandos 7 e 8 pelo comando a seguir:
    ```bash
-   docker run -it --rm --network=host jhone18/client:latest /bin/bash
+   docker run -it --rm --network=host jhone18/cliente:latest /bin/bash
    ```
 
 Após seguir todos os passos descritos acima o servidor retornará uma mensagem indicando que o arquivo foi recebido e salvo com sucesso caso assim tenha acontecido.
